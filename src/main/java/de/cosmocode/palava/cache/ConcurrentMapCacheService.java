@@ -43,7 +43,7 @@ final class ConcurrentMapCacheService extends AbstractCacheService implements In
     
     private static final Logger LOG = LoggerFactory.getLogger(ConcurrentMapCacheService.class);
 
-    private ReferenceMode keyMode = ReferenceMode.SOFT;
+    private ReferenceMode keyMode = ReferenceMode.STRONG;
     private ReferenceMode valueMode = ReferenceMode.SOFT;
     
     private int maximumSize;
