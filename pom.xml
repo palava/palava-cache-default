@@ -3,7 +3,7 @@
   <parent>
     <artifactId>palava-parent</artifactId>
     <groupId>de.cosmocode.palava</groupId>
-    <version>2.6.1</version>
+    <version>2.6.2</version>
   </parent>
   <name>Palava Cache Default</name>
   <groupId>de.cosmocode.palava</groupId>
@@ -27,7 +27,7 @@
     <dependency>
       <groupId>de.cosmocode.palava</groupId>
       <artifactId>palava-core</artifactId>
-      <version>[2.10,3)</version>
+      <version>[2.10.3,3)</version>
     </dependency>
     <dependency>
       <groupId>de.cosmocode.palava</groupId>
